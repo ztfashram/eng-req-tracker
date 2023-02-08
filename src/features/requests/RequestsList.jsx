@@ -30,7 +30,7 @@ const RequestsList = () => {
             headerName: 'Created',
             flex: 0.7,
             renderCell: (params) =>
-                new Date(params.row.createdAt).toLocaleString('eu-AU', {
+                new Date(params.row.createdAt).toLocaleString('en-AU', {
                     day: 'numeric',
                     month: 'short',
                     year: 'numeric',
@@ -41,7 +41,7 @@ const RequestsList = () => {
             headerName: 'Updated',
             flex: 0.7,
             renderCell: (params) =>
-                new Date(params.row.updatedAt).toLocaleString('eu-AU', {
+                new Date(params.row.updatedAt).toLocaleString('en-AU', {
                     day: 'numeric',
                     month: 'short',
                     year: 'numeric',
